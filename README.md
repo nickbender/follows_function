@@ -26,7 +26,7 @@ There are a number of helpful generator functions to prep follows_function for y
   # etc
 ```
 
-All of said functions add requisite css and js to your _application_ files, as well as establish defaults for client-side-validation display. There are a number of configurable SASS variables for each framework that can be configured to your given tastes. They can be found [here](#).
+Each generator adds requisite css and js to your _application_ files, as well as establishes defaults for client-side-validation display. There are a number of configurable SASS variables for each framework that can be configured to your given tastes. They can be found [here](#).
 
 Syntax for your forms will remain largely the same as they currently do, but can be further customized.
 
@@ -56,7 +56,7 @@ end
 ```
 
 ##Why?
-At Margin, we grew very fond of using many gems in consort.  Simpleform, ClientSideValidations, Chosen, and various css frameworks, but realized the task of inserting all these into a new app was both tedius and time consuming given the vast number of pieces in motion.
+At Margin, we found ourselves using a lot of the same gems in every project.  Simpleform, ClientSideValidations, Chosen, and various css frameworks, but realized the task of inserting all these into a new app was both tedius and time consuming given the vast number of pieces in motion.
 
 ##Where's My Framework?
 If you find that we're missing your favorite open source css library, you can see our guide on integrating your own variables and helpers [here](#).
